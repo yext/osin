@@ -1,8 +1,9 @@
 package osin
 
 import (
-	"code.google.com/p/go-uuid/uuid"
 	"encoding/base64"
+
+	"github.com/pborman/uuid"
 )
 
 // AuthorizeTokenGenDefault is the default authorization token generator
